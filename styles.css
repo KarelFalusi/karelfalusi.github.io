@@ -1,0 +1,180 @@
+body {
+    background-color: #0A79A4;
+    color: #FFFFFF;
+    font-family: "Corbel", sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.4545;
+    margin: 0;
+    background-image: url(header-bg.png);
+    background-position: right -170px top -250px;
+    background-size: 1240px; 
+    background-repeat: no-repeat;
+}
+
+/*body {
+    background-image: url(mobile.png);
+    background-position-x: 0px;
+    background-position-y: 100px;
+}
+
+body>* {
+    mix-blend-mode: difference;
+}
+*/
+
+a {
+    color: #CCF1FF;
+
+}
+
+a:hover,
+a:focus {
+    color: #854700;
+    outline: none;
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img {
+    margin-bottom: 0.75rem;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 1.25rem;
+    padding-top: 2.25rem;
+    background-image: linear-gradient(180deg, rgba(1, 112, 175, 0) 10%, #003F63 100%);
+    background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Constantia", serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.125;
+    margin-top: 1.25rem;
+    margin-bottom: 1.75rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2.25rem;
+}
+
+ul {
+    list-style-type: "— ";
+    margin: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.375rem;
+}
+
+header,
+nav,
+nav a {
+    /* background-color: #dab1a7; */
+    color: #114E6A;
+}
+
+header p {
+    color: #0E3C52;
+}
+
+header,
+nav {
+    padding: 1.25rem;
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.25;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+}
+
+nav li {
+    display: inline-block;
+
+
+}
+
+nav ul {
+    padding-top: 0.6875rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+section {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+section> :last-child {
+    margin-bottom: 0;
+
+}
+
+figure {
+    margin: 0;
+
+}
+
+figure img {
+    margin-bottom: 2.25rem;
+}
+
+article {
+    margin-bottom: 2.75rem;
+}
+
+article:last-of-type {
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding-top: 1rem;
+}
+
+footer img {
+    max-width: 11.625rem;
+}
+
+.overheading {
+    color: #CCF1FF;
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 0.375em;
+    text-transform: uppercase;
+    border-left: 2px solid #CCF1FF;
+    padding-left: 1rem;
+}
+
+header .overheading {
+    color: #114E6A;
+    border-left-color: #114E6A;
+}
