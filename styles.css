@@ -232,7 +232,17 @@ header .overheading {
     margin-right: auto;
 }
 
-#projects img {
-    width: 766px;
-    height: 340px;
+.img-project {
+    max-width: 47.875rem;
+    height: auto;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
+figcaption {
+    flex-basis: 18rem;
 }
