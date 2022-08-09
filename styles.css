@@ -148,7 +148,7 @@ figure img {
 }
 
 article {
-    margin-bottom: 2.75rem;
+    margin-bottom: 2.25rem;
 }
 
 article:last-of-type {
@@ -243,6 +243,24 @@ figure {
     column-gap: 3rem;
 }
 
+figure img {
+    margin-bottom: 2.25rem;
+    object-fit: cover;
+    height: 340px;
+}
+
+.projectBeta {
+    flex-direction: row-reverse;
+}
+
 figcaption {
     flex-basis: 18rem;
+    flex-grow: 1;
+}
+
+.projectBeta .img-project {
+    height: auto;
+    width: auto;
+    flex-basis: 59%;
+    flex-grow: 1;
 }
