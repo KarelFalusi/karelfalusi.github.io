@@ -233,8 +233,8 @@ header .overheading {
 }
 
 .img-project {
-    max-width: 47.875rem;
-    height: auto;
+    flex-basis: 59%;
+    flex-grow: 1;
 }
 
 figure {
@@ -251,16 +251,11 @@ figure img {
 
 .projectBeta {
     flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 figcaption {
     flex-basis: 18rem;
     flex-grow: 1;
-}
-
-.projectBeta .img-project {
-    height: auto;
-    width: auto;
-    flex-basis: 59%;
-    flex-grow: 1;
+    max-width: 48ch;
 }
