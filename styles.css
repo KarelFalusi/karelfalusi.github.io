@@ -12,17 +12,6 @@ body {
     margin: 0;
 }
 
-/*body {
-    background-image: url(mobile.png);
-    background-position-x: 0px;
-    background-position-y: 100px;
-}
-
-body>* {
-    mix-blend-mode: difference;
-}
-*/
-
 a {
     color: #CCF1FF;
 
@@ -68,21 +57,20 @@ h3 {
 
 ul {
     list-style-type: "— ";
+    padding-left: 1.375rem;
     margin: 0;
     margin-bottom: 1rem;
-    padding-left: 1.375rem;
 }
 
 header {
+    max-width: 69.5rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 69.5rem;
 }
 
 header,
 nav,
 nav a {
-    /* background-color: #dab1a7; */
     color: #114E6A;
 }
 
@@ -98,14 +86,14 @@ nav {
 }
 
 nav {
-    text-transform: uppercase;
     font-size: 1rem;
     line-height: 1.25;
-    padding: 0;
+    text-transform: uppercase;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     min-height: 6rem;
+    padding: 0;
 }
 
 nav a {
@@ -182,8 +170,8 @@ header .overheading {
 
 .contacts-container {
     display: flex;
-    column-gap: 1.5rem;
     flex-wrap: wrap;
+    column-gap: 1.5rem;
 }
 
 .contacts,
@@ -219,11 +207,11 @@ header .overheading {
 }
 
 .technologies {
+    max-width: 69.5rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 69.5rem;
-    padding: 1.25rem;
     margin-top: 11rem;
+    padding: 1.25rem;
 }
 
 .width {
@@ -244,9 +232,9 @@ figure {
 }
 
 figure img {
-    margin-bottom: 2.25rem;
     object-fit: cover;
     height: 340px;
+    margin-bottom: 2.25rem;
 }
 
 .projectBeta {
