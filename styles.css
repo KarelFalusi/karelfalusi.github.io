@@ -96,6 +96,12 @@ nav {
     padding: 0;
 }
 
+@media (max-width:1021px) {
+    nav {
+        justify-content: flex-start;
+    }
+}
+
 nav a {
     text-decoration: none;
     display: block;
@@ -187,6 +193,12 @@ header .overheading {
     max-width: 29rem;
     min-height: 23rem;
 
+}
+
+@media (min-width: 1021px) and (max-width: 1300px) {
+    .frontend {
+        padding-left: 4rem;
+    }
 }
 
 .container {
