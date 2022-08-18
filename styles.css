@@ -183,30 +183,30 @@ footer img {
     .overheading {
         border: none;
         display: flex;
-        flex-direction: row;
-        align-items: center;
         column-gap: 1rem;
         padding: 0;
         max-width: 100%;
     }
+}
 
-    span {
-        background: #CCF1FF;
-        width: 72px;
+@media (min-width: 800px) {
+    .overheading span {
+        background-color: #CCF1FF;
+        flex-basis: 72px;
         height: 2px;
         display: block;
-
+        flex-shrink: 0;
+        margin-top: clamp(1rem - 1px, 0.875rem + 0.5556vw - 1px, 1.375rem - 1px);
     }
 
     header .overheading span {
-        background: #114E6A;
+        background-color: #114E6A;
     }
 }
 
 header .overheading {
     color: #114E6A;
     border-left-color: #114E6A;
-    margin: 0;
 }
 
 .contacts-container {
