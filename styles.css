@@ -277,10 +277,14 @@ figure {
 
 figure img {
     object-fit: cover;
-    height: 340px;
+    height: 320px;
     margin-bottom: 2.25rem;
 }
-
+@media (min-width: 948px) {
+    figure img {
+        height: 340px;
+    }
+}
 .projectBeta {
     flex-direction: row-reverse;
     justify-content: flex-end;
