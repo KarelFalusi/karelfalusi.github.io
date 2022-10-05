@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karel Faluši – Frontend Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,11 +26,8 @@
                 <p class="overheading">Frontend Developer</p>
                 <h1>Karel Faluši</h1>
                 <p>
-                    I’m Karel a front end developer based in Czechia.
-                    These are the words that tell you basic stuff
-                    about me.
-                    Not much details but also a bit of my
-                    personality shows here.
+                    Práce na PC mě bavila od dětství a když mě před půl rokem propustili pro nadbytečnost z práce, která mě stejně nebavila, byla to pro mě příležitost pustit se do studia IT naplno. 
+                    Nyní po 4 měsících každodenního studia hledám svou první příležitost jako frontend junior vývojář.
                 </p>
             </div>
         </header>
@@ -41,8 +41,13 @@
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
+                        <li>Sass</li>
                         <li>Git & GitHub</li>
+                        <li>Bootstrap</li>
                         <li>Gulp & npm scripts</li>
+                        <li>SVG Inkscape</li>
+                        <li>Photopea</li>
+                        <li>Figma jako zdroj designu pro kódování</li>
                     </ul>
                 </section>
             </div>
@@ -53,86 +58,153 @@
                         <p class="overheading">What did I do</p>
                         <h2>Projects</h2>
                         <article>
-
-                            <h3>Project Alpha</h3>
+                            <h3>Generic Hipster Coffee</h3>
                             <figure>
                                 <div class="img-project">
-                                    <img src="https://dummyimage.com/1532x680/fff/aaa" alt="" width="1532" height="680"
+                                    <img src="img\karel-ghc.surge.sh_ 1532w.jpg" 
+                                        alt="" 
+                                        width="1532"
+                                        height="680" 
                                         srcset="
-                                        https://dummyimage.com/721x320/0f0/aaa 721w,
-                                        https://dummyimage.com/766x340/f00/aaa 766w,
-                                        https://dummyimage.com/1442x640/00f/aaa 1442w,
-                                        https://dummyimage.com/1532x680/00f/aaa 1532w
-                                        " sizes="
+                                            img\karel-ghc.surge.sh_721w.jpg 721w,
+                                            img\karel-ghc.surge.sh_766w.jpg 766w,
+                                            img\karel-ghc.surge.sh_1442w.jpg 1442w,
+                                            img\karel-ghc.surge.sh_1532w.jpg 1532w
+                                            "
+                                        sizes="
                                         (min-width:948px) 766px,
                                         721px
-                                        ">
-
+                                        " 
+                                    />
                                 </div>
                                 <figcaption>
-                                    The description of the project,what was done by you, what have you learned. What
-                                    were
-                                    the
-                                    technologies and methodologies used to create this project. <br><br>
-                                    <a href="mailto:falusi.karel@gmail.com">See the website</a> and check the <a
-                                        href="#">source
-                                        code on GitHub.</a>
+                                    Responzivní několikastránková prezentace fiktivní kavárny postavená na CSS frameworku Bootstrap 5 s customizací pomocí Sass 
+                                    a využitím šablon Nunjucks, vytvořená podle grafického návrhu. <br><br>
+                                    <a href="https://karel-ghc.surge.sh/">See the website</a> and check the 
+                                    <a href="https://github.com/KarelFalusi/ghc">source
+                                    code on GitHub.
+                                    </a>
                                 </figcaption>
                             </figure>
-
                         </article>
                         <article>
-                            <h3>Project Beta</h3>
+                            <h3>Rest Countries</h3>
                             <figure class="projectBeta">
                                 <div class="img-project">
-                                    <div class="img-project">
-                                        <img src="https://dummyimage.com/1532x680/fff/aaa" alt="" width="1532"
-                                            height="680" srcset="
-                                            https://dummyimage.com/721x320/0f0/aaa 721w,
-                                            https://dummyimage.com/766x340/f00/aaa 766w,
-                                            https://dummyimage.com/1442x640/00f/aaa 1442w,
-                                            https://dummyimage.com/1532x680/00f/aaa 1532w
-                                            " sizes="
+                                    <img src="img\rest-countries-kf.surge.sh_1532w.jpg" 
+                                        alt="" 
+                                        width="1532"
+                                        height="680" 
+                                        srcset="
+                                            img\rest-countries-kf.surge.sh_721w.jpg 721w,
+                                            img\rest-countries-kf.surge.sh_766w.jpg 766w,
+                                            img\rest-countries-kf.surge.sh_1442w.jpg 1442w,
+                                            img\rest-countries-kf.surge.sh_1532w.jpg 1532w
+                                            " 
+                                        sizes="
                                             (min-width:948px) 766px,
                                             721px
-                                            ">
-                                    </div>
-                                    <figcaption>
-                                        The description of the project,what was done by you, what have you learned. What
-                                        were
-                                        the
-                                        technologies and methodologies used to create this project. <br><br>
-                                        <a href="mailto:falusi.karel@gmail.com">See the website</a> and check the <a
-                                            href="#">source
-                                            code on GitHub.</a>
-                                    </figcaption>
+                                            "
+                                    />
+                                </div>
+                                <figcaption>
+                                    Webová stránka v HTML, CSS a vanilla JavaScriptu pro zobrazování dat stahovaných z REST Countries API. 
+                                    Na stránce jde vyhledávat a filtrovat země a zobrazit další podrobnosti o dané zemi. 
+                                    Stránku lze přepínat mezi light a dark mode. <br><br>
+                                    <a href="https://rest-countries-kf.surge.sh/">See the website</a> and check the 
+                                    <a href="https://github.com/KarelFalusi/rest-countries">source
+                                    code on GitHub.</a>
+                                </figcaption>
                             </figure>
                         </article>
                         <article>
-                            <h3>Project Gamma</h3>
+                            <h3>Personal web</h3>
                             <figure>
                                 <div class="img-project">
-                                    <div class="img-project">
-                                        <img src="https://dummyimage.com/1532x680/fff/aaa" alt="" width="1532"
-                                            height="680" srcset="
-                                            https://dummyimage.com/721x320/0f0/aaa 721w,
-                                            https://dummyimage.com/766x340/f00/aaa 766w,
-                                            https://dummyimage.com/1442x640/00f/aaa 1442w,
-                                            https://dummyimage.com/1532x680/00f/aaa 1532w
-                                            " sizes="
+                                    <img src="img\personal-web_index.html_1532w.jpg" 
+                                        alt=""
+                                        class="personal" 
+                                        width="1532"
+                                        height="680" 
+                                        srcset="
+                                            img\personal-web_index.html_721w.jpg 721w,
+                                            img\personal-web_index.html_766w.jpg 766w,
+                                            img\personal-web_index.html_1442w.jpg 1442w,
+                                            img\personal-web_index.html_1532w.jpg 1532w
+                                            "
+                                        sizes="
+                                        (min-width:948px) 766px,
+                                        721px
+                                        " 
+                                    />
+                                </div>
+                                <figcaption>
+                                    Má první zkušenost s tvorbou webu. Jedná se o statický web s použitím HTML a CSS, 
+                                    vytvořený podle grafického návrhu přístupem mobile first. 
+                                    Jeho hlavním cílem je přehledně prezentovat mé dovednosti s odkazy na reálné projekty a GitHub. <br><br>
+                                    Check the <a href="https://github.com/KarelFalusi/karelfalusi.github.io">source code on GitHub.</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article>
+                            <h3>Work Calculator</h3>
+                            <figure class="projectBeta">
+                                <div class="img-project">
+                                    <img src="img\karelfalusi.github.io_work-calculator_1532w.jpg" 
+                                        alt=""
+                                        class="work-calc" 
+                                        width="1532"
+                                        height="680" 
+                                        srcset="
+                                            img\karelfalusi.github.io_work-calculator_721w.jpg 721w,
+                                            img\karelfalusi.github.io_work-calculator_766w.jpg 766w,
+                                            img\karelfalusi.github.io_work-calculator_1442w.jpg 1442w,
+                                            img\karelfalusi.github.io_work-calculator_1532w.jpg 1532w
+                                            " 
+                                        sizes="
                                             (min-width:948px) 766px,
                                             721px
-                                            ">
-                                    </div>
-                                    <figcaption>
-                                        The description of the project,what was done by you, what have you learned. What
-                                        were
-                                        the
-                                        technologies and methodologies used to create this project. <br><br>
-                                        <a href="mailto:falusi.karel@gmail.com">See the website</a> and check the <a
-                                            href="#">source
-                                            code on GitHub.</a>
-                                    </figcaption>
+                                            "
+                                    />
+                                </div>
+                                <figcaption>
+                                    Menší projekt pro moje užití. Vytvořil jsem si deník cvičení, který zaznamenává datum, čas a typ cviku 
+                                    a jak moc se mi daří splnit cíl pro daný týden, to se ukládá do localStorage.
+                                    Na projektu chci dále pracovat a vylepšit jeho design i funkčnost. <br><br>
+                                    <a href="https://karelfalusi.github.io/work-calculator/">See the website</a> and check the 
+                                    <a href="https://github.com/KarelFalusi/work-calculator">source
+                                    code on GitHub.</a>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article>
+                            <h3>Tea Cozy</h3>
+                            <figure>
+                                <div class="img-project">
+                                    <img src="img\karelfalusi.github.io_tea-cozy_1522w.jpg" 
+                                        alt=""
+                                        class="cozy" 
+                                        width="1522"
+                                        height="680" 
+                                        srcset="
+                                            img\karelfalusi.github.io_tea-cozy_721w.jpg 721w,
+                                            img\karelfalusi.github.io_tea-cozy_761w.jpg 761w,
+                                            img\karelfalusi.github.io_tea-cozy_1442w.jpg 1442w,
+                                            img\karelfalusi.github.io_tea-cozy_1522w.jpg 1522w
+                                            "
+                                        sizes="
+                                        (min-width:948px) 766px,
+                                        721px
+                                        " 
+                                    />
+                                </div>
+                                <figcaption>
+                                    Statický web fiktivní čajovny podle grafického návrhu. 
+                                    Učil jsem se na něm především flexbox. <br><br>
+                                    <a href="https://karelfalusi.github.io/tea-cozy/">See the website</a> and check the 
+                                    <a href="https://github.com/KarelFalusi/tea-cozy">source
+                                    code on GitHub.</a>
+                                </figcaption>
                             </figure>
                         </article>
                     </section>
@@ -140,7 +212,7 @@
                         <p class="overheading">More About Me</p>
                         <h2>Other Skills</h2>
                         <ul>
-                            <li>English B1</li>
+                            <li>English B2</li>
                             <li>Drivers license</li>
                         </ul>
                     </section>
@@ -159,8 +231,8 @@
                             <div class="contacts">
                                 <p>mail me at <a href="mailto:falusi.karel@gmail.com">falusi.karel@gmail.com</a></p>
                                 <p>give me a call at <a href="tel:+420737863394">737 863 394</a></p>
-                                <p><a href="#">Linkedln</a></p>
-                                <p><a href="#">Github</a></p>
+                                <p><a href="www.linkedin.com/in/karel-falusi">Linkedln</a></p>
+                                <p><a href="https://github.com/KarelFalusi">Github</a></p>
                             </div>
                         </div>
                     </footer>
