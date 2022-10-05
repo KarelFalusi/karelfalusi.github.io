@@ -5,8 +5,8 @@
 body {
     background-color: #0A79A4;
     color: #FFFFFF;
-    font-family: "Corbel", sans-serif;
-    font-weight: 700;
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
     font-size: 1.375rem;
     line-height: 1.4545;
     margin: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-    color: #CCF1FF;
+    color: burlywood;
 
 }
 
@@ -39,27 +39,24 @@ img {
     height: auto;
 }
 
-h1,
-h2,
-h3 {
-    font-family: "Constantia", serif;
-    font-weight: 400;
-}
-
 h1 {
     font-size: clamp(4rem, 3.0417rem + 4.2593vw, 6.875rem);
+    font-weight: 400;
     line-height: 1.125;
     margin: 0;
 }
 
 h2 {
     font-size: clamp(3rem, 2.6667rem + 1.4815vw, 4rem);
+    font-weight: 300;
     margin: 0;
     margin-bottom: 1.5rem;
 }
 
 h3 {
     font-size: clamp(2.25rem, 2.2083rem + 0.1852vw, 2.375rem);
+    font-weight: 500;
+    color: burlywood;
     margin-bottom: 1.5rem;
     margin-top: 2.25rem;
 }
@@ -84,6 +81,8 @@ nav a {
 }
 
 header p {
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
     color: #0E3C52;
     max-width: 466px;
     margin: 0;
@@ -97,6 +96,7 @@ nav {
 
 nav {
     font-size: 1rem;
+    font-weight: 400;
     line-height: 1.25;
     text-transform: uppercase;
     display: flex;
@@ -172,6 +172,7 @@ footer img {
 .overheading {
     color: #CCF1FF;
     font-size: clamp(1rem, 0.8750rem + 0.5556vw, 1.375rem);
+    font-weight: 400;
     line-height: 2;
     letter-spacing: 0.375em;
     text-transform: uppercase;
@@ -254,7 +255,7 @@ header .overheading {
     max-width: var(--max-width-horizontal-padding);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 11rem;
+    margin-top: 5rem;
     padding: 1.25rem var(--horizontal-padding);
 }
 
@@ -279,6 +280,7 @@ figure img {
     object-fit: cover;
     height: 320px;
     margin-bottom: 2.25rem;
+    display: block;
 }
 @media (min-width: 948px) {
     figure img {
@@ -294,4 +296,13 @@ figcaption {
     flex-basis: 18rem;
     flex-grow: 1;
     max-width: 48ch;
+}
+
+.personal,
+.work-calc {
+    object-position: 0;
+}
+
+.cozy {
+    object-position: 8%;
 }
