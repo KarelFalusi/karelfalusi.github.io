@@ -55,8 +55,7 @@ h2 {
 
 h3 {
     font-size: clamp(2.25rem, 2.2083rem + 0.1852vw, 2.375rem);
-    font-weight: 500;
-    color: burlywood;
+    font-weight: 300;
     margin-bottom: 1.5rem;
     margin-top: 2.25rem;
 }
@@ -77,14 +76,13 @@ header {
 header,
 nav,
 nav a {
-    color: #114E6A;
+    color: #01476c;
 }
 
 header p {
-    font-family: "Lexend", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #0E3C52;
-    max-width: 466px;
+    max-width: 40rem;
     margin: 0;
 }
 
@@ -102,7 +100,6 @@ nav {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    min-height: 6rem;
     padding: 0;
 }
 
@@ -110,6 +107,7 @@ nav {
     nav {
         justify-content: flex-end;
         --horizontal-padding: 1.75rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -167,17 +165,20 @@ footer {
 footer img {
     max-width: 11.625rem;
     max-height: 11.625rem;
+    object-fit: cover;
+    object-position: top;
 }
 
 .overheading {
     color: #CCF1FF;
     font-size: clamp(1rem, 0.8750rem + 0.5556vw, 1.375rem);
-    font-weight: 400;
+    font-weight: 300;
     line-height: 2;
     letter-spacing: 0.375em;
     text-transform: uppercase;
     border-left: 2px solid #CCF1FF;
     padding-left: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 @media (min-width: 800px) {
@@ -226,9 +227,7 @@ header .overheading {
 }
 
 .frontend {
-    max-width: 30rem;
     min-height: 23rem;
-
 }
 
 .container {
@@ -298,11 +297,22 @@ figcaption {
     max-width: 48ch;
 }
 
-.personal,
-.work-calc {
-    object-position: 0;
+.personal {
+    object-position: 0 0;
 }
 
 .cozy {
-    object-position: 8%;
+    object-position: 1% 0;
+}
+
+.work-calc {
+    object-position: center 0;
+}
+
+.ghc {
+    object-position: 38.4% 0;
+}
+
+.country {
+    object-position: 19% 0;
 }
